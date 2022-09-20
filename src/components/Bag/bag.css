@@ -1,0 +1,148 @@
+.bagContainer{
+    margin:100px 120px 0px 120px;
+    /* border:1px solid rebeccapurple; */
+}
+
+.delivery{
+    display: flex;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #eaeaed;
+    font-weight: 300;
+    justify-content: space-between;
+}
+
+.addressBtn{
+    padding: 8px 16px;
+    border: 1px solid #ff3f6c;
+    border-radius: 4px;
+    margin-right: 0;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff3f6c;     
+}
+
+.priceInfo{
+    padding:8px;
+    border-radius: 4px;
+    border: 1px solid #eaeaed;
+    font-weight: 300;
+}
+
+.princeInfoText{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.itemCard{
+    border-radius: 4px;
+    margin-top:20px;
+    border: 1px solid #d0d0d1;
+    display:flex;
+}
+
+.cartproductImage{
+    margin:8px;
+    width:115px;
+    height:150px;
+    background-size: cover;
+}
+
+.cartProductDetails{
+    margin-top:8px;
+    margin-left:5px;
+}
+
+.cartProductTitle{
+    font-weight: 600;
+    line-height: 16px;
+    font-size:15px;
+}
+
+.cartProductDesc{
+    margin-top: 2px;
+    color:#282c3f;
+    font-weight: light;
+    font-size: 12px;
+}
+
+.cartProductSeller{
+    color: #94969f;
+    font-size: 11px;
+}
+
+.cartProductQuant{
+    margin:10px 0px 10px 5px;
+    width:45px;
+    height:22px;
+    background-color: rgb(233, 231, 231);
+    color:black;
+    font-size: 13px;
+    text-align: center;
+    font-weight:600;
+}
+
+.cartProductDisPrice{
+    color:#282c3f;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cartProductOrgPrice{
+    color: #94969f;
+    font-size: 14px;
+}
+
+.cartProductOffer{
+    color:#ff905a;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.whislist{
+    border-radius: 4px;
+    margin:20px 0px 10px 0px;
+    padding:10px 0px 10px 0px;
+    border: 1px solid #eaeaed;
+    cursor: pointer;
+}
+
+.offerAndCoupons{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.offerRecom{
+    margin-top: 10px;
+    background: #fff1ec;
+    font-size: 14px;
+    padding:8px;
+    cursor: pointer;
+    color:black;
+}
+
+.priceItem{
+    margin-top:10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.totalPrice{
+    font-size:15px;
+    font-weight: 600;
+}
+
+.btnOrder{
+    margin:15px 0px 10px 0px;
+    width:100%;
+    background: #ff3f6c;
+    outline: none;
+    color:white;
+    font-size:14px;
+    padding: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+}

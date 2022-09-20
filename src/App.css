@@ -1,0 +1,14 @@
+.appcontainer{
+     width: 100%; 
+}
+
+.appBody{
+     margin-top:100px;
+ }
+
+ .spinner{
+      position: fixed;
+      top:50%;
+      left:50%;
+      z-index: 500000;
+}

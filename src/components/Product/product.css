@@ -1,0 +1,198 @@
+
+.imageContainer{
+    width:50%;
+    margin-left: 30px;
+}
+
+.detailsContainer{
+    margin-left:30px;
+    margin-bottom:50px;
+    width:40%;
+    display: inline-block;
+}
+
+.productHeading{
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 500;
+    color:#282c3f;
+    margin-bottom:20px;
+}
+
+.productDescription{
+    color:#535665;
+    font-size:20px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-bottom:20px;
+}
+
+.ratingSummary{
+    border:1px solid rgb(223, 219, 219);
+    border-radius: 2px;
+    display: inline;
+    padding:5px;
+}
+
+.ratingSummary:hover{
+    border:1px solid rgb(82, 80, 80);
+}
+
+.discountedPrice{
+    font-weight:500;
+    color:#282c3f;
+    font-size: 20px;
+}
+
+.originalPrice{
+    font-weight:300;
+    color:#535357;
+    font-size: 20px;
+}
+
+.offer{
+    color:#ff905a;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.tax{
+    color: #03a685;
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    margin: 5px 10px 0 0;
+}
+
+.selectSize{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sizeChart{
+    outline: 0;
+    background-color: transparent;
+    border: 0;
+    letter-spacing: .5px;
+    text-align: right;
+    padding: 0 0 5px;
+    color: #ff3e6c;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.addToCart{
+    background-color: #ff3e6c;
+    color:white;
+    border: 1px solid #ff3e6c;
+    cursor: pointer;
+    font-weight: 500;
+    width: 220px;
+    height:50px;
+    margin-right:20px;
+}
+
+.addToWishlist{
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    width: 220px;
+    height:50px;
+    border: 0.5px solid rgb(165, 163, 163);
+}
+
+.addToWishlist:hover{
+    border:1px solid black
+}
+
+.productSpecifications{
+    color: #3f414d;
+    line-height: 0.5;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.btnSizeGroup{
+    margin:10px 0px 10px 0px;
+}
+
+.btnSize{
+    background-color: #fff;
+    border: 1px solid #bfc0c6;
+    border-radius: 50px;
+    padding: 0;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: #282c3f;
+    position: relative;
+}
+
+.btnSize:hover{
+    border:1px solid #ff3f6c;
+}
+
+.itemLeft{
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    width: 100%;
+    left: 3px;
+    top: 35px;
+    background-color: #ff905a;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.seller{
+    color: #ff3e6c;
+    font-weight: 500;
+}
+
+.productImage{
+    margin:5px 5px 5px 5px;
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-origin: border-box;
+    background-size: cover;
+    cursor:zoom-in;
+    transition: transform .2s;
+}
+
+.productImage:hover{
+    transform: scale(1.02); 
+}
+
+.dialogueBox{
+    background-color: rgb(14, 11, 11);
+    color:white;
+    animation-name: dialogueBox;
+    animation-duration: 4s ;
+    position: relative;
+    font-size:12px;
+    font-weight: 600;
+    width:120px;
+    left:300px;
+    z-index: 1000;
+    border-radius: 4px;
+    visibility: hidden;
+}
+
+@keyframes dialogueBox {
+    0%   { left:300px;top:0px;visibility: visible;}
+    100% { left:300px; top: 120px;visibility: visible;}
+  }
+
+.dialogueImg{
+    width:40px;
+    height:40px;
+    border:5px solid black;
+    border-radius: 4px;
+}
